@@ -1,0 +1,27 @@
+{
+  "name": "wafflian",
+  "version": "1.0.0",
+  "description": "wafflian main framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "build": "cd app && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TECOW/wafflian.git"
+  },
+  "author": "Kevin J Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TECOW/wafflian/issues"
+  },
+  "homepage": "https://github.com/TECOW/wafflian#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+  "node": "14.15.4"
+}
+}
