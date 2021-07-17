@@ -1,0 +1,17 @@
+html {
+  font-family: "Monsterrat", sans-serif;
+}
+
+
+
+.Header {
+  position: absolute;
+  text-align: center;
+
+}
+
+.List {
+  position: absolute;
+  text-align: left;
+  margin: auto 16px;
+}
