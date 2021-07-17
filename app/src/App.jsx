@@ -1,28 +1,27 @@
 import React, {useState, useEffect} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header.jsx";
 
 function App() {
-  const [data, setData] = useState(null);
-
-  useEffect(()=> {
-    fetch("/api")
-    .then((res)=>res.json())
-    .then((data) => setData(data.message));
-  }, []);
 
   return (
-    <div className="App">
+    <div className="container">
+      <div className="row">
 
-      <Header/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {!data ? "Loading..." : data}
-        </p>
-      </header>
+        <div className="col-sm">
+          <h1 className="webTitle">Wafflian</h1>
+        </div>
+        <div className="col-sm">
+          <h2>Belgian Waffle & Cupcake Bar</h2>
+        </div>
+        <div className="col-sm">
+          <p>Monday - Saturday: 9:30 A.M. - 6:00 P.M.</p>
+        </div>
+
+      </div>
     </div>
+
+
   );
 }
 
