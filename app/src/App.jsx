@@ -1,25 +1,29 @@
-import React, {useState, useEffect} from 'react';
+
+import {Container, Row, Col, Image} from "react-bootstrap";
 import './App.css';
 import Header from "./components/Header.jsx";
 
 function App() {
 
   return (
-    <div className="container">
-      <div className="row">
-
-        <div className="col-sm">
-          <h1 className="webTitle">Wafflian</h1>
-        </div>
-        <div className="col-sm">
-          <h2>Belgian Waffle & Cupcake Bar</h2>
-        </div>
-        <div className="col-sm">
-          <p>Monday - Saturday: 9:30 A.M. - 6:00 P.M.</p>
-        </div>
-
-      </div>
-    </div>
+        <Container>
+          <Row className="content align-items-center">
+            <Col>
+              <Image src="/images/Cupcakes.png"/>
+            </Col>
+            <Col className="beginningInfo">
+              <Row>
+                <h1 className="webTitle">Wafflian</h1>
+              </Row>
+              <Row>
+                <h2>Belgian Waffle & Cupcake Bar</h2>
+              </Row>
+              <Row>
+                <p>Monday - Saturday: 9:30 A.M. - 6:00 P.M.</p>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
 
 
   );

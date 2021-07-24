@@ -1,35 +1,40 @@
 
 .container {
-  text-align: right;
 
   background-color: #e5b4bc;
 
-  height: 100%;
+  min-height: 100vh;
+
+  max-width: 100%;
 }
 
-.row {
+.content{
   padding: 50px 0;
-  margin: 0 25%;
+  margin: 0 15%;
 }
 
 .webTitle{
   font-family: 'Dancing Script', cursive;
 }
 
-@media screen and (min-width: 601px) {
+.beginningInfo{
+  text-align: right;
+}
+
+@media screen and (min-width: 1001px) {
   .webTitle{
     font-size: 124px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .container {
     text-align: center;
   }
   .webTitle{
     font-size: 72px;
   }
-  .row{
+  .content{
     margin: 0 10%
   }
 }
