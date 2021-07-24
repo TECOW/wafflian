@@ -1,0 +1,26 @@
+.header {
+  color: #ffc0cb;
+  position: relative;
+  text-align: left;
+  margin: auto 16px;
+  padding: 108px 32px;
+  font-family: bold;
+
+}
+
+
+.list {
+  position: relative;
+  text-align: left;
+  margin: -64px 50px;
+  padding: -32px 0px;
+}
+
+.list h4 {
+ color: #ffc0cb;
+}
+
+
+.list p {
+  color: #5b423e;
+}

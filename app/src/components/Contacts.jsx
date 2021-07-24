@@ -1,13 +1,13 @@
 import React from 'react';
-import Heading from './Heading';
+import Header from './Header';
 import List from './List';
+import '../styles/Contacts.css'
 
 function Contacts() {
   return (
   <div>
-    <Heading />
+    <Header />
     <List />
-
   </div>
   );
 }
