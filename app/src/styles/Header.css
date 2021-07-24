@@ -16,3 +16,8 @@
   height: 100px;
   width: 100px;
 }
+
+.links {
+  textAlign:"left";
+  paddingLeft:"2.5rem"
+}
