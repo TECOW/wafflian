@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.container {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  background-color: #e5b4bc;
 
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  max-width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.content{
+  padding: 50px 0;
+  margin: 0 15%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.webTitle{
+  font-family: 'Dancing Script', cursive;
+}
+
+.beginningInfo{
+  text-align: right;
+}
+
+@media screen and (min-width: 1001px) {
+  .webTitle{
+    font-size: 124px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    text-align: center;
+  }
+  .webTitle{
+    font-size: 72px;
+  }
+  .content{
+    margin: 0 10%
   }
 }
