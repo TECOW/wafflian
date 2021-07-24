@@ -1,7 +1,7 @@
 import "../styles/Header.css";
 import React from "react";
 import {Navbar, Image, Col, Row} from "react-bootstrap";
-
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -10,10 +10,10 @@ function Header() {
 
   return(
     <Navbar className="Header">
-      <Col style={{textAlign:"left", paddingLeft:"2.5rem"}}>
-        <Navbar.Brand className="navbar-brand" href="#home">Home</Navbar.Brand>
-        <Navbar.Brand className="navbar-brand" href="#menu">Menu</Navbar.Brand>
-        <Navbar.Brand className="navbar-brand" href="#contact">Contact</Navbar.Brand>
+      <Col className="links">
+        <Navbar.Brand><Link className="navbar-brand" to="/">Home</Link></Navbar.Brand>
+        <Navbar.Brand><Link className="navbar-brand" to="/menu">Menu</Link></Navbar.Brand>
+        <Navbar.Brand><Link className="navbar-brand" to="/contact">Contact Us</Link></Navbar.Brand>
       </Col>
     <Col >
       <Image className="logo" src={PUBLIC_URL ? PUBLIC_URL + "/images/WafflianLogo.png" : "/images/WafflianLogo.png"} alt="logo" roundedCircle />
