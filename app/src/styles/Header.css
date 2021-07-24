@@ -1,6 +1,6 @@
 .Header {
   background-color: #5B423E;
-  padding: 1.5rem 2.5rem 1.5rem;
+  padding: 2rem 0 2rem 0;
 }
 
 .navbar-brand {
@@ -8,6 +8,11 @@
   font-size: 1.5rem;
 }
 .logo {
+  float: none;
   position: absolute;
+  top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
 }
