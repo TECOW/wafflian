@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "name": "Vanilla Cupcake",
+      "imagePath": "/images/VanillaCupcake.png"
+    },
+    {
+      "name": "Matcha Cupcake",
+      "imagePath": "/images/MatchaCupcake.png"      
+    }
+  ]
+}
