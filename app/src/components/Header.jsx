@@ -9,7 +9,7 @@ function Header() {
   console.log(PUBLIC_URL);
 
   return(
-    <Navbar className="Header">
+    <Navbar className="header">
       <Col style={{textAlign:"left", paddingLeft:"2.5rem"}}>
         <Navbar.Brand className="navbar-brand" href="#home">Home</Navbar.Brand>
         <Navbar.Brand className="navbar-brand" href="#menu">Menu</Navbar.Brand>
