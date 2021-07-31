@@ -3,11 +3,12 @@ import '../styles/About.css';
 import {Container, Row, Col, Image} from "react-bootstrap";
 
 function About() {
+  const PUBLIC_URL = process.env.PUBLIC_URL || null;
   return (
     <Container>
       <Row className="content align-items-center">
         <Col>
-          <Image src="/images/Cupcakes.png"/>
+          <Image src={PUBLIC_URL ? PUBLIC_URL + "/images/Cupcakes.png" : "/images/Cupcakes.png"}/>
         </Col>
         <Col className="beginningInfo">
           <Row>

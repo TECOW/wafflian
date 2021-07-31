@@ -1,7 +1,7 @@
-import "../styles/Header.css";
 import React from "react";
 import {Navbar, Image, Col, Row} from "react-bootstrap";
 import { Link } from 'react-router-dom';
+import "../styles/Header.css";
 
 function Header() {
 
