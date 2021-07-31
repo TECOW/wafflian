@@ -1,11 +1,40 @@
 .menu {
-  text-align: center;
 
   background-color: #e5b4bc;
 
   color: #5b423e;
 }
 
-.carousel {
-  padding: 7% 15%;
+.center {
+  margin: 10px auto;
+}
+
+.carouselMargins {
+  margin: 40px auto;
+}
+
+h1{
+  font-size: 72px;
+}
+h2{
+  font-size: 54px;
+}
+
+h3{
+   color: #5b423e;
+}
+
+.imageMargin {
+  margin: auto;
+}
+
+.caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.dimensions {
+  width: 300px;
+  height: 300px;
 }
