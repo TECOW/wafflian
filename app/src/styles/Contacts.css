@@ -1,10 +1,11 @@
 .header {
-  color: #ffc0cb;
+  color: #e5b4bc;
   position: relative;
   text-align: left;
   margin: auto 16px;
   padding: 108px 32px;
   font-family: bold;
+  line-height: 1.5em;
 
 }
 
@@ -16,11 +17,24 @@
   padding: -32px 0px;
 }
 
-.list h4 {
- color: #ffc0cb;
+.headings {
+ color: #e5b4bc;
 }
 
 
-.list p {
+.text {
   color: #5b423e;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.shop {
+  height: 375px;
+  width: 500px;
+
+}
+
+.picture {
+  background-color: #e5b4bc;
+
 }
