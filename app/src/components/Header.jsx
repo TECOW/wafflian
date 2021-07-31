@@ -9,7 +9,7 @@ function Header() {
   console.log(PUBLIC_URL);
 
   return(
-    <Navbar className="Header">
+    <Navbar className="header">
       <Col className="links">
         <Navbar.Brand><Link className="navbar-brand" to="/">Home</Link></Navbar.Brand>
         <Navbar.Brand><Link className="navbar-brand" to="/menu">Menu</Link></Navbar.Brand>
