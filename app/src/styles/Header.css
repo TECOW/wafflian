@@ -1,6 +1,10 @@
 .header {
   background-color: #5B423E;
   padding: 2rem 0 2rem 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .navbar-brand {
